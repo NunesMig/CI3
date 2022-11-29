@@ -1,0 +1,19 @@
+{
+  "name": "@nunesmig/ci3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NunesMig/CI3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NunesMig/CI3/issues"
+  },
+  "homepage": "https://github.com/NunesMig/CI3#readme"
+}
