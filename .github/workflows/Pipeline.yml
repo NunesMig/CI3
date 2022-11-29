@@ -82,7 +82,6 @@ jobs:
         kubectl apply -f deploy-to-minikube.yml
     - name: Test service URLs
       run: |
-       minikube tunnel
        kubectl create deployment hello-minikube1 --image=hub.docker.com/repository/docker/nunesmig/ci3:latest
        kubectl expose deployment hello-minikube1 --type=LoadBalancer --port=8080
        kubectl get svc
